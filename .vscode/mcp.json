@@ -1,0 +1,36 @@
+{
+	"servers": {
+		"github": {
+			"url": "https://api.githubcopilot.com/mcp/",
+			"type": "http"
+		},
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			],
+			"type": "stdio"
+		},
+		"markitdown": {
+			"command": "uvx",
+			"args": [
+				"markitdown-mcp"
+			],
+			"type": "stdio"
+		},
+		"huggingface": {
+			"url": "https://huggingface.co/mcp",
+			"headers": {
+				"Authorization": "Bearer ${input:hfToken}"
+			},
+			"type": "http"
+		}
+	},
+	"inputs": [
+        {
+        "id": "hfToken",
+        "description": "Your Hugging Face API token",
+        "type": "promptString"
+        }
+    ]
+}

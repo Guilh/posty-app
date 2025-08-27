@@ -33,7 +33,8 @@ build/
 out/
 
 # IDE / Editor
-.vscode/
+.vscode/*
+!.vscode/mcp.json
 .idea/
 *.swp
 *.swo
@@ -72,3 +73,6 @@ Thumbs.db
 
 # Logs from nodemon
 .nodemonignore
+
+#Misc
+prompt.md

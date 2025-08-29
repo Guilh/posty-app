@@ -1,20 +1,19 @@
----
-title: Top 5 Trending Hugging Face Models
-date: 2025-08-29
----
+# Top 5 Trending Hugging Face Models (Daily Snapshot)
 
-![AI Robot](/robot.webp)
+![AI Robot Illustration](https://evalstate-flux1-schnell.hf.space/gradio_api/file=/tmp/gradio/6019abc3248f4ef2957946611b5f6efb29e0672c14f2d8ef81fb6ccf03acbf35/image.webp)
 
-Below are the current top 5 trending models on Hugging Face:
+A quick look at five currently trending models on Hugging Face. This snapshot includes their libraries (when specified) and reported/known parameter counts where available.
 
-| Model | Library | Params* | Link |
-|-------|---------|--------:|------|
-| microsoft/VibeVoice-1.5B | (n/a) | 1.5B | https://hf.co/microsoft/VibeVoice-1.5B |
-| xai-org/grok-2 | (n/a) | (n/a) | https://hf.co/xai-org/grok-2 |
-| openbmb/MiniCPM-V-4_5 | transformers | (n/a) | https://hf.co/openbmb/MiniCPM-V-4_5 |
-| Qwen/Qwen-Image-Edit | diffusers | (n/a) | https://hf.co/Qwen/Qwen-Image-Edit |
-| deepseek-ai/DeepSeek-V3.1 | transformers | (n/a) | https://hf.co/deepseek-ai/DeepSeek-V3.1 |
+| # | Model | Library | Params |
+|---|-------|---------|--------|
+| 1 | [microsoft/VibeVoice-1.5B](https://huggingface.co/microsoft/VibeVoice-1.5B) | (n/a) | 2.7B |
+| 2 | [xai-org/grok-2](https://huggingface.co/xai-org/grok-2) | (n/a) | — |
+| 3 | [openbmb/MiniCPM-V-4_5](https://huggingface.co/openbmb/MiniCPM-V-4_5) | transformers | 8.7B |
+| 4 | [Qwen/Qwen-Image-Edit](https://huggingface.co/Qwen/Qwen-Image-Edit) | diffusers | — |
+| 5 | [deepseek-ai/DeepSeek-V3.1](https://huggingface.co/deepseek-ai/DeepSeek-V3.1) | transformers | 684.5B |
 
-*Params values are approximate where known; (n/a) indicates not provided in quick metadata.
+Notes:
+- “—” indicates the parameter count wasn’t published in the fetched metadata.
+- Library “(n/a)” means no explicit primary inference library tag appeared in the quick metadata snapshot.
 
-_This snapshot captured on 2025-08-29._
+Once you give me the image URL, I'll embed it (replacing the placeholder), then commit and push this post.
